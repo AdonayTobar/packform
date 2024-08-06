@@ -13,20 +13,20 @@ function enviarWhatsApp(destinatario) {
 
     switch (destinatario) {
         case 'Josue':
-            url = `https://api.whatsapp.com/send?phone=521234567890&text=${encodeURIComponent(mensaje)}`;
+            url = `https://api.whatsapp.com/send?phone=70186014&text=${encodeURIComponent(mensaje)}`;
             break;
         case 'Henry':
-            url = `https://api.whatsapp.com/send?phone=521234567891&text=${encodeURIComponent(mensaje)}`;
+            url = `https://api.whatsapp.com/send?phone=76725729&text=${encodeURIComponent(mensaje)}`;
             break;
         case 'Adonay':
             url = `https://api.whatsapp.com/send?phone=60288548&text=${encodeURIComponent(mensaje)}`;
             break;
         case 'Todos':
-            url = `https://api.whatsapp.com/send?phone=521234567890&text=${encodeURIComponent(mensaje)}`;
+            url = `https://api.whatsapp.com/send?phone=70186014&text=${encodeURIComponent(mensaje)}`;
             window.open(url, '_blank');
-            url = `https://api.whatsapp.com/send?phone=521234567891&text=${encodeURIComponent(mensaje)}`;
+            url = `https://api.whatsapp.com/send?phone=76725729&text=${encodeURIComponent(mensaje)}`;
             window.open(url, '_blank');
-            url = `https://api.whatsapp.com/send?phone=521234567892&text=${encodeURIComponent(mensaje)}`;
+            url = `https://api.whatsapp.com/send?phone=60288548&text=${encodeURIComponent(mensaje)}`;
             break;
     }
 
