@@ -21,13 +21,9 @@ function enviarWhatsApp(destinatario) {
         case 'Adonay':
             url = `https://api.whatsapp.com/send?phone=60288548&text=${encodeURIComponent(mensaje)}`;
             break;
-        case 'Todos':
-            url = `https://api.whatsapp.com/send?phone=70186014&text=${encodeURIComponent(mensaje)}`;
+        case 'Rene':
+            url = `https://api.whatsapp.com/send?phone=72453603&text=${encodeURIComponent(mensaje)}`;
             window.open(url, '_blank');
-            url = `https://api.whatsapp.com/send?phone=76725729&text=${encodeURIComponent(mensaje)}`;
-            window.open(url, '_blank');
-            url = `https://api.whatsapp.com/send?phone=60288548&text=${encodeURIComponent(mensaje)}`;
-            break;
     }
 
     window.open(url, '_blank');
